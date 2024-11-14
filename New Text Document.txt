@@ -1,0 +1,134 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav .nav-links li a:hover {
+    color: #f39c12;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1500x800/000000/FFFFFF?text=Gaming+Channel+Background') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #f39c12;
+}
+
+.cta-button {
+    background-color: #f39c12;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e67e22;
+}
+
+.videos {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.videos h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.video-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.video-item {
+    width: 300px;
+}
+
+.video-item iframe {
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+}
+
+.video-item p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #fff;
+}
